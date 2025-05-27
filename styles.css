@@ -127,16 +127,17 @@
 
     /* Projects Section */
 
-    #Projects {
+    #projects {
         background-color: #EAE4D5;
         padding: 60px 20px;
         text-align: center;
     }
 
-    #Projects h2 {
+    #projects h2 {
         font-size: 2rem;
         margin-bottom: 30px;
         color: #121212;
+         
     }
 
     .project-grid {
@@ -181,6 +182,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
       padding: 20px;
     
     }
