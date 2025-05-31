@@ -10,6 +10,39 @@ body {
     color: #121212;
 }
 
+   
+header {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #121212;
+    font-weight: bold;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 6px;
+}
+
+header a:hover {
+    color: #dedede;
+    background-color: #121212;
+}
+    
+
+header .contact-btn {
+    padding: 8px 14px;
+    background-color: #dedede;
+    color: #121212;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
 .svg-logo-pro {
   width: 300px;
   height: 300px;
@@ -42,40 +75,6 @@ body {
     transform: translateY(-8px);
     opacity: 0.9;
   }
-}
-
-
-    
-header {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-start;
-}
-
-header a {
-    text-decoration: none;
-    color: #121212;
-    font-weight: bold;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 6px;
-}
-
-header a:hover {
-    color: #dedede;
-    background-color: #121212;
-}
-    
-
-header .contact-btn {
-    padding: 8px 14px;
-    background-color: #dedede;
-    color: #121212;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    text-transform: uppercase;
-    box-sizing: border-box;
 }
 
 .main {
@@ -568,9 +567,20 @@ footer p {
     margin: 0;
 }
 
- @media(max-width: 600px){
-    .left h4 {
-        margin-top: 20px;
-    } 
+ @media(max-width: 400px){
+    header {
+        gap: 4px;
+    }
+
+    header .contact-btn {
+        font-size: 10px;
+    }
+
+    .left {
+        padding: 10px;
+    }
+
 }
+
+
 
